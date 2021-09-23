@@ -36,9 +36,13 @@ const Head = () => {
           </div>
 
           <div className={styles.imageContainer}>
-            <img src={imageOne} className={styles.imageOne} />
-            <img src={imageTwo} className={styles.imageTwo} />
-            <img src={imageThree} className={styles.imageThree} />
+            <img src={imageOne} className={styles.imageOne} alt='boat' />
+            <img src={imageTwo} className={styles.imageTwo} alt=' seal' />
+            <img
+              src={imageThree}
+              className={styles.imageThree}
+              alt='iboat 2'
+            />
           </div>
         </div>
 
