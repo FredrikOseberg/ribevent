@@ -113,3 +113,24 @@
     transform: translateX(-125px);
   }
 }
+
+@media (max-width: 500px) {
+  .imageOne,
+  .imageTwo,
+  .imageThree {
+    max-width: 200px;
+  }
+
+  .imageTwo {
+    right: -40px;
+    bottom: -20px;
+  }
+
+  .textContainer {
+    margin-top: 4rem;
+  }
+
+  .bottomHeaderSection {
+    margin-top: 9rem;
+  }
+}
