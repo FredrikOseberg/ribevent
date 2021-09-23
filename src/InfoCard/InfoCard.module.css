@@ -1,0 +1,19 @@
+.infoCard {
+  background-color: #fff;
+  max-width: 240px;
+  min-width: 230px;
+  padding: 0.5rem;
+  border-radius: 12px;
+  margin: 0.75rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: #133453;
+}
+
+@media (max-width: 500px) {
+  .infoCard {
+    min-width: 70%;
+  }
+}
