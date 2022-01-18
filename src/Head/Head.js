@@ -1,3 +1,5 @@
+/** @format */
+
 import styles from './Head.module.css';
 
 import imageOne from '../assets/img1.jpg';
@@ -11,7 +13,7 @@ const Head = () => {
       <div className='container'>
         <div className={styles.header}>
           <div className={styles.headerContainer}>
-            <h1 className={styles.logo}>Ribevent</h1>
+            <h1 className={styles.logo}>RIBEVENT</h1>
           </div>
         </div>
 
@@ -58,10 +60,7 @@ const Head = () => {
 
           <InfoCard
             title='For all aldre'
-            text='RIB passer for alle aldre og tilpasses alltid etter gruppens
-              behov slik at de som er mest spent føler seg trygge, mens de
-              som ønsker action også sitter med et bredt smil når turen er
-              over.'
+            text='RIB er en aktivitet som passer for alle aldre. Vi tilpasser alltid kjøringen etter gruppen og værforhold. Vi er eksperter på å levere trygghetsfølelse i kombinasjon med action. '
           />
 
           <InfoCard
