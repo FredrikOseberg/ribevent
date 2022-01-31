@@ -85,7 +85,7 @@ const Head = () => {
         <p
           style={{ color: '#fff', fontWeight: 'bold', marginTop: '2rem' }}
         >
-          Kontakt: +47 477 02 860 - andreas@ribevent.no
+          Kontakt: +47 477 02 860 - andreas@ribevent.no - Ta kontakt
         </p>
       </div>
     </div>
